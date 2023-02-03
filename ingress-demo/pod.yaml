@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: http-echo
-    image: jxlwqq/http-echo
+    image: jxlwqq/http-echo # hashicorp/http-echo
     args:
       - "--text=hello world 1"
       - "--addr=:8000"
@@ -21,7 +21,7 @@ metadata:
 spec:
   containers:
   - name: http-echo
-    image: jxlwqq/http-echo
+    image: jxlwqq/http-echo # hashicorp/http-echo
     args:
       - "--text=hello world 2"
       - "--addr=:8000"
